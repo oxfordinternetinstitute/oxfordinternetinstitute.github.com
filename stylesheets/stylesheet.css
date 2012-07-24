@@ -145,7 +145,7 @@ strong {
 
 img {
   position: relative;
-  margin: 0 auto;
+  margin: 0 auto; 
   max-width: 739px;
   padding: 5px;
   margin: 10px 0 10px 0;
@@ -375,6 +375,23 @@ Full-Width Styles
 }
 
 
+/*******************************************************************************
+Added TK
+*******************************************************************************/
+#oii-brand {width:65%; float:left;}
+#oii-brand img {
+	margin:0; 
+	padding:0; 
+	border:0;  
+	max-height:none; 
+	max-width:none;
+	box-shadow:none;
+	-webkit-box-shadow: none;
+	-moz-box-shadow:none;
+	-o-box-shadow: none;
+	-ms-box-shadow:none;
+	width:auto;
+	}
 
 /*******************************************************************************
 Small Device Styles
